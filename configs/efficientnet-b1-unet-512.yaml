@@ -1,0 +1,25 @@
+all_data: 1
+batch_size: 16
+bands:
+- B02
+- B03
+- B04
+- B08
+classes: 2
+decoder: unet
+ds_path: data
+encoder: efficientnet-b1
+epochs: 31
+fast_dev_run: 0
+gpu: True
+image_size: 512
+loss: CE
+lr: 8.317637711026709e-05
+model_name: efficientnet-b1-unet
+num_workers: 2
+optimizer: Adam
+patience: 5
+scheduler: cosine
+seed: 42
+selected_folds: 4
+weights: imagenet
